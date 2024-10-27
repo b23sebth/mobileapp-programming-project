@@ -1,0 +1,41 @@
+[
+  {
+    "ID": "projekt_slipknot",
+    "LOGIN": "slipknot",
+    "members": ["Corey Taylor", "Shawn Crahan", "et al"],
+    "genre": "Metal",
+    "active": "1999-present"
+  },
+
+  {
+    "ID": "projekt_Kaleo",
+    "LOGIN": "kaleo",
+    "members": ["Jökull Júlíusson", "Davíð Antonsson", "et al"],
+    "genre": "Blues rock",
+    "active": "2012-present"
+  },
+
+  {
+    "ID": "projekt_korb",
+    "LOGIN": "darren_korb",
+    "members": "Darren Korb",
+    "genre": "Game soundtracks",
+    "active": "2011-present"
+  },
+
+  {
+    "ID": "projekt_hozier",
+    "LOGIN": "hozier",
+    "members": "Andrew John Hozier-Byrne",
+    "genre": "Blues rock",
+    "active": "2008-present"
+  },
+
+  {
+    "ID": "projekt_zeppelin",
+    "LOGIN": "led_zeppelin",
+    "members": ["Robert Plant", "Jimmy Page", "et al"],
+    "genre": "Folk rock",
+    "active": "1968-1980"
+  }
+]
