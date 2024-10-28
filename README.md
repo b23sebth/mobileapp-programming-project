@@ -1,42 +1,59 @@
 
 # Rapport
 
-**Skriv din rapport här!**
-
-_Du kan ta bort all text som finns sedan tidigare_.
-
-## Följande grundsyn gäller dugga-svar:
-
-- Ett kortfattat svar är att föredra. Svar som är längre än en sida text (skärmdumpar och programkod exkluderat) är onödigt långt.
-- Svaret skall ha minst en snutt programkod.
-- Svaret skall inkludera en kort övergripande förklarande text som redogör för vad respektive snutt programkod gör eller som svarar på annan teorifråga.
-- Svaret skall ha minst en skärmdump. Skärmdumpar skall illustrera exekvering av relevant programkod. Eventuell text i skärmdumpar måste vara läsbar.
-- I de fall detta efterfrågas, dela upp delar av ditt svar i för- och nackdelar. Dina för- respektive nackdelar skall vara i form av punktlistor med kortare stycken (3-4 meningar).
-
-Programkod ska se ut som exemplet nedan. Koden måste vara korrekt indenterad då den blir lättare att läsa vilket gör det lättare att hitta syntaktiska fel.
+Jag började med att lägga till den JSON data jag skulle använda för min RecyclerView. Kodexempel för JSON data finns nedan.
+Sedan ändrade jag namnet på appen samt färgschemat. Efter det skapade jag en andra aktivitet och även knappar för att byta emellan dem (Home/about us).
+Därefter skapades layouten till recyclerview, adaptern och widgeten. Sedan initialiserades recyclerviewn:n. Slutligen justerade jag placeringarna något och lade till text för "about us".
 
 ```
-function errorCallback(error) {
-    switch(error.code) {
-        case error.PERMISSION_DENIED:
-            // Geolocation API stöds inte, gör något
-            break;
-        case error.POSITION_UNAVAILABLE:
-            // Misslyckat positionsanrop, gör något
-            break;
-        case error.UNKNOWN_ERROR:
-            // Okänt fel, gör något
-            break;
-    }
-}
+[
+  {
+    "ID": "projekt_slipknot",
+    "LOGIN": "slipknot",
+    "name": "Slipknot",
+    "members": "Corey Taylor, Shawn Crahan, et al",
+    "genre": "Metal",
+    "active": "1999-present"
+  },
+
+  {
+    "ID": "projekt_Kaleo",
+    "LOGIN": "kaleo",
+    "name": "Kaleo",
+    "members": "Jökull Júlíusson, Davíð Antonsson et al",
+    "genre": "Blues rock",
+    "active": "2012-present"
+  },
+
+  {
+    "ID": "projekt_korb",
+    "LOGIN": "darren_korb",
+    "name": "Darren Korb",
+    "members": "Darren Korb",
+    "genre": "Game soundtracks",
+    "active": "2011-present"
+  },
+
+  {
+    "ID": "projekt_hozier",
+    "LOGIN": "hozier",
+    "name": "Hozier",
+    "members": "Andrew John Hozier-Byrne",
+    "genre": "Blues rock",
+    "active": "2008-present"
+  },
+
+  {
+    "ID": "projekt_zeppelin",
+    "LOGIN": "led_zeppelin",
+    "name": "Led Zeppelin",
+    "members": "Robert Plant, Jimmy Page, et al",
+    "genre": "Folk rock",
+    "active": "1968-1980"
+  }
+]
 ```
 
-Bilder läggs i samma mapp som markdown-filen.
+![Home screen](Screenshot_20241028-010333.png)
 
-![](android.png)
-
-Läs gärna:
-
-- Boulos, M.N.K., Warren, J., Gong, J. & Yue, P. (2010) Web GIS in practice VIII: HTML5 and the canvas element for interactive online mapping. International journal of health geographics 9, 14. Shin, Y. &
-- Wunsche, B.C. (2013) A smartphone-based golf simulation exercise game for supporting arthritis patients. 2013 28th International Conference of Image and Vision Computing New Zealand (IVCNZ), IEEE, pp. 459–464.
-- Wohlin, C., Runeson, P., Höst, M., Ohlsson, M.C., Regnell, B., Wesslén, A. (2012) Experimentation in Software Engineering, Berlin, Heidelberg: Springer Berlin Heidelberg.
+L
